@@ -1,0 +1,12 @@
+********** Compile command: 'javac -encoding UTF-8 *.java'
+---------- Result: 
+./KActionListener.java:5: error: duplicate class: mylib.KActionListener
+public interface KActionListener{
+       ^
+ActionListener.java:6: error: cannot access KActionListener
+class ColorActionListener implements KActionListener{
+                                     ^
+  bad source file: ./KActionListener.java
+    file does not contain class KActionListener
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+*******컴파일 오류*******************************
